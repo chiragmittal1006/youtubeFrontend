@@ -1,0 +1,21 @@
+.hero{
+    background: #99999928;
+    min-height: 100vh;
+}
+
+.hero-container{
+    padding-left: 13rem;
+    padding-top: 4.5rem;
+    padding-right: 1rem;
+}
+
+.hero-large-container{
+    padding-left: 5.5rem;
+    padding-right: 1rem;
+}
+
+@media screen and (max-width:850px) {
+    .hero-container{
+        padding-left: 5.5rem;
+    }
+}

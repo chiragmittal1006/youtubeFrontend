@@ -1,0 +1,81 @@
+.feed-container{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: calc(0.6666%);
+}
+.feed{
+    width: 24.5%;
+    min-height: 1px;
+    border-radius: 0.4rem;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+.feed-image{
+    width: 100%;
+    aspect-ratio: 5/3;
+    border-radius: 0.4rem;
+    overflow: hidden;
+}
+
+.feed-image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.feed-text h1{
+    color: black;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.feed-channel h2{
+    color: #555;
+    font-weight: 700;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.feed-day{
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    color: #444;
+}
+@media screen and (max-width:1180px) {
+    .feed-container{
+        gap: 0.5%;
+    }
+    .feed{
+        width: 33%;
+        min-height: 1px;
+        border-radius: 0.6rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width:850px) {
+    .feed-container{
+        gap: 1%;
+    }
+    .feed{
+        width: 49.5%;
+        min-height: 1px;
+        border-radius: 0.6rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width:550px) {
+    .feed{
+        width: 99%;
+        min-height: 1px;
+        border-radius: 0.6rem;
+        overflow: hidden;
+        margin-bottom: 1rem;
+    }
+}
